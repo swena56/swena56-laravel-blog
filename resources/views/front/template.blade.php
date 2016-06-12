@@ -92,6 +92,7 @@
 								</li>
 							@endif
 						@endif
+						<!--
 						<li class="dropdown">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#"><img width="32" height="32" alt="{{ session('locale') }}"  src="{!! asset('img/' . session('locale') . '-flag.png') !!}" />&nbsp; <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -102,6 +103,7 @@
 							@endforeach
 							</ul>
 						</li>
+						--!>
 					</ul>
 				</div>
 			</div>
