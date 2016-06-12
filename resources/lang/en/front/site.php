@@ -1,8 +1,8 @@
 <?php
 
 return [
-	'title' => 'Swena56 Blog',
-	'sub-title' => 'Learning Laravel',
+	'title' => 'Learning Laravel',
+	'sub-title' => 'Andrew Swenson',
 	'home' => 'Home',
 	'contact' => 'Contact',
 	'blog' => 'Blog',
