@@ -28,7 +28,7 @@ return [
 	|
 	*/
 
-	'host' => 'smtp.free.fr',
+	'host' => 'aspmx.l.google.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => 'moi@free.fr', 'name' => 'Administrateur'],
+	'from' => ['address' => 'swena56@gmail.com', 'name' => 'SwenA56-Laravel-Blog'],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
 	|
 	*/
 
-	'username' => null,
+	'username' => 'swena56@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
