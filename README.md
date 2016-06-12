@@ -1,11 +1,5 @@
-## Laravel 5 example ##
-
-**Laravel 5 example** is a tutorial application (in french [there](http://laravel.sl-creation.org/)).
-
 ### Installation ###
 
-* `git clone https://github.com/bestmomo/laravel5-example.git projectname`
-* `cd projectname`
 * `composer install`
 * `php artisan key:generate`
 * Create a database and inform *.env*
@@ -13,18 +7,6 @@
 * Inform *config/mail.php* for email sends
 * `php artisan vendor:publish` to publish filemanager
 * `php artisan serve` to start the app on http://localhost:8000/
-
-Another cool way to install it is to upload [this package](http://laravel.sillo.org/tuto/installable.zip), unpack it in your server folder, and just launch it and follow the installation windows. It has been created with my [laravel installer package](https://github.com/bestmomo/laravel-installer). Anyway you'll have to set the email configuration.
-
-### Nitrous Quickstart ###
-
-Create a free development environment for this Laravel 5 example project in the cloud on [Nitrous.io](https://www.nitrous.io) by clicking the button below.
-
-<a href="https://www.nitrous.io/quickstart">
-  <img src="https://nitrous-image-icons.s3.amazonaws.com/quickstart.png" alt="Nitrous Quickstart" width=142 height=34>
-</a>
-
-In the IDE, start Laravel 5 Example via `Run > Start Laravel 5 Example` and access your site via `Preview > 8000`.
 
 ### Include ###
 
@@ -58,11 +40,3 @@ In the IDE, start Laravel 5 Example via `Run > Start Laravel 5 Example` and acce
 * laravelcollective/html
 * bestmomo/filemanager
 
-### Tricks ###
-
-To test application the database is seeding with users :
-
-* Administrator : email = admin@la.fr, password = admin
-* Redactor : email = redac@la.fr, password = redac
-* User : email = walker@la.fr, password = walker
-* User : email = slacker@la.fr, password = slacker
